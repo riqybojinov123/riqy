@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f5f9;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0, 1);
+}
+h1 {
+    color: #24292f;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    background: #24292f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0969da;
+}
+#loading {
+    color: red;
+}
+.profile {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+}
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile h2 {
+    color: #24292f;
+}
+.profile a {
+    color: #0906da;
+    text-decoration: none;
+}
+body {
+    background: linear-gradient(to right, red, blue, green, yellow, purple, pink, orange, cyan, black, white, gray, gold,
+     red, blue, green, yellow, purple, pink, orange, cyan, black, white, gray, gold,
+      red, blue, green, yellow, purple, pink, orange, cyan, black, white, gray, gold,
+       red, blue, green, yellow, purple, pink, orange, cyan, black, white, gray, gold);
+}
