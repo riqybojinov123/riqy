@@ -1,0 +1,25 @@
+@baseUrl = http://localhost:8787
+
+### Cek server
+GET {{baseUrl}}/
+
+### Semua data
+GET {{baseUrl}}/todos
+
+### Detail data
+GET {{baseUrl}}/todos/2
+
+### Tambah data
+POST {{baseUrl}}/todos
+Content-Type: application/json
+
+{ "message": "Belajar Hono REST API", "done": false }
+
+### Ubah data
+PUT {{baseUrl}}/todos/2
+Content-Type: application/json
+
+{ "message": "Menulis dokumentasi API", "done": true }
+
+### Hapus data
+DELETE {{baseUrl}}/todos/4
